@@ -10,8 +10,6 @@
 
 using namespace std::chrono_literals;
 
-//  Trivial change!
-//
 extern "C" void app_main(void) {
   espp::Logger logger({.tag = "ICM20948 Example", .level = espp::Logger::Verbosity::INFO});
   logger.info("Starting example!");

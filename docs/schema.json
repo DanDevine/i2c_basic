@@ -1,0 +1,48 @@
+{
+    "deviceId": "<registered-hardware-device_id>",
+    "timestamp": "2026-08-25T19:00:00.000Z",
+    "lat": 47.6821,
+    "lng": -122.4035,
+    "courseDegrees": 45.2,
+    "speedKnots": 4.1,
+    "raceId": "r-xxxxxxxx",
+    "heelDeg": 12.4,
+    "trimDeg": -2.1,
+    "headingDeg": 48.0,
+    "yawRateDegPerSec": 18.5,
+    "motionSummary": {
+        "schemaVersion": 2,
+        "windowEndAt": "2026-08-25T19:00:00.000Z",
+        "windowMs": 2000,
+        "sampleCount": 40,
+        "sogKnots": 4.1,
+        "courseDegrees": 45.2,
+        "yawRateMeanAbsDegPerSec": 12.3,
+        "trim": {
+            "meanDeg": -2.0,
+            "stdDeg": 0.8,
+            "rmsDeg": 2.2,
+            "peakToPeakDeg": 3.1
+        },
+        "heel": {
+            "meanDeg": 11.5,
+            "stdDeg": 3.2,
+            "rmsDeg": 11.9,
+            "peakToPeakDeg": 18.0
+        },
+        "heelDynamics": {
+            "firstDeg": 8.0,
+            "firstOffsetMs": 0,
+            "lastDeg": 14.0,
+            "lastOffsetMs": 1950,
+            "minDeg": 5.0,
+            "minOffsetMs": 200,
+            "maxDeg": 22.0,
+            "maxOffsetMs": 900,
+            "peakPositiveRateDegPerSec": 45.0,
+            "peakPositiveRateOffsetMs": 1100,
+            "peakNegativeRateDegPerSec": -52.0,
+            "peakNegativeRateOffsetMs": 400
+        }
+    }
+}

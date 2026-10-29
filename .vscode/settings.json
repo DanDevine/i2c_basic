@@ -6,7 +6,7 @@
   ],
   "idf.port": "/dev/tty.usbmodem5B5E0760021",
   "idf.flashBaudRate": "115200",
-  "idf.currentSetup": "/Users/ddevine/.espressif/v6.0.2/esp-idf",
+  "idf.currentSetup": "/Users/ddevine/.espressif/v6.1/esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },
@@ -16,5 +16,5 @@
     "--query-driver=**",
     "--compile-commands-dir=/Users/ddevine/git/ESP32_examples/i2c_basic/build"
   ],
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": false
 }
